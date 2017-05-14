@@ -37,9 +37,3 @@ void draw() {
     }//end of for
   }//end of chainReaction if
 }
-
-/*Ball grows larger, then smaller until disappears. If any other balls 
-come in contact, they also */
-void chainReaction() {
-  chainReaction = true;
-}
