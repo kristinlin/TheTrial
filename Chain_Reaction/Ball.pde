@@ -31,4 +31,9 @@ class Ball{
     x += dx;
     y += dy;
   }
+
+  void die() {
+       scale(4.0);
+       scale(1/4);	
+  } 
 }
