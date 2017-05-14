@@ -20,4 +20,15 @@ class Ball{
     fill(c);
     ellipse(x,y,20,20);
   }
+  
+  void move(){
+    if(abs(x-width) <= 5 || abs(x) <= 5){
+      dx = -dx;
+    }
+    if(abs(y-height) <= 5 || abs(y) <= 5){
+      dy = -dy;
+    }
+    x += dx;
+    y += dy;
+  }
 }
