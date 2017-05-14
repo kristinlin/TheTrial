@@ -15,6 +15,7 @@ void setup() {
 void draw() {
   background(0);
   for (Ball b: _balls) {
+    b.move();
     b.display();   
   }
   //if clicked, call chainReaction?
