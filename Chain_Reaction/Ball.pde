@@ -12,8 +12,8 @@ class Ball{
   
   Ball(){
     r = 20; 
-    x = random((width - r) + r/2);
-    y = random((height - r) + r/2);
+    x = random((width - r - 10) + r/2) + 10;
+    y = random((height - r - 10) + r/2) + 10;
     dx = random(10) - 5;
     dy = random(10) - 5;
     c = color((int) random(255), (int) random(255), (int) random(255));
